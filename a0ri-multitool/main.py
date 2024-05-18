@@ -32,8 +32,14 @@ while True:
                  await stealer()
                  input(f'\n{utils.blue}press enter to exit')
 
+            elif choice == '3':
+                 from util.program.searcher import searcher
+                 await searcher()
+                 input(f'\n{utils.blue}press enter to exit')
+
             else:
                  print(f'{utils.red}[+] INVALID CHOICE')
                  utils.time.sleep(2)
+
 
     asyncio.run(menu())
