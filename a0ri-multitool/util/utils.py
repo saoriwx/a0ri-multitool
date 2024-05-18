@@ -6,6 +6,9 @@ import os
 import subprocess
 import socket
 import time
+import requests
+import time
+from datetime import datetime
 import util
 from util import utils
 from util.program import *
@@ -23,6 +26,9 @@ cyan = Fore.BLUE
 author = "saori.wx"
 github = "https://github.com/saoriwx"
 discord = "https://discord.gg/GDcuZgyPKN"
+repo_name = 'a0ri-multitool'
+latest_release = f'{github}/{repo_name}/releases/latest'
+
 
 
 hostname = socket.gethostname()
@@ -33,10 +39,10 @@ banner = f"""
                          {red}                █████╗  ██████╗ ██████╗ ██╗{reset}
                          {red}               ██╔══██╗██╔═████╗██╔══██╗██║{reset}
                          {red}               ███████║██║██╔██║██████╔╝██║{reset}  {red}MADE BY {red}{author}{reset}
-                         {red}               ██╔══██║████╔╝██║██╔══██╗██║{reset} 
+                         {red}               ██╔══██║████╔╝██║██╔══██╗██║{reset}  
                          {red}               ██║  ██║╚██████╔╝██║  ██║██║{reset}
                          {red}               ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝
-                                                
+                                                                    
                                                                     {red} [+] GITHUB :       {red}{github}{reset}
                                                                     {red} [+] SUPPORT :     {red} {discord} {reset}
 
@@ -44,10 +50,11 @@ banner = f"""
  __________________________________________________________________
 /_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/       
   
-{red}[1] IPLOOKUP{reset}      {red}[3] SEARCHER{reset}
+{red}[1] IPLOOKUP{reset}      {red}[4] PHONE LOOKUP{reset}
 
-{red}[2] STEALER{reset}       {red}[4] PHONE LOOKUP{reset}
+{red}[2] STEALER{reset}       {red}[5] LATEST RELEASE{reset}
 
+{red}[3] SEARCHER{reset}
 
 {red} __________________________________________________________________
 /_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/

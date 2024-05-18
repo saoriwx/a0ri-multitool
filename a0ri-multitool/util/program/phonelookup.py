@@ -14,7 +14,7 @@ async def phonelookup():
         utils.os.system('cls')
         print(utils.red + utils.phone_banner)
         try:
-            phone_number = input("Phone number: \n").strip().replace("-", "").replace(" ", "").replace("+", "")
+            phone_number = input("Phone number: ").strip().replace("-", "").replace(" ", "").replace("+", "")
         except KeyboardInterrupt:
             return
 

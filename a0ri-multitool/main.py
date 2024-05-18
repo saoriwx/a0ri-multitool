@@ -4,15 +4,14 @@ from util.program import *
 import asyncio
 import util.program
 import util.program.stealer
+import os
+utils.os.system('cls')
 
 while True:
 
     async def menu():
             utils.os.system('cls')
-
             print(utils.banner)
-
-
         
 
             choice = input(f"""{utils.red}┌───({utils.reset}{utils.hostname}@a0ri{utils.red})─[{utils.reset}~{utils.red}]
@@ -40,6 +39,11 @@ while True:
             elif choice == '4':
                  from util.program.phonelookup import phonelookup
                  await phonelookup()
+                 input(f'\n{utils.blue}press enter to exit')
+                
+            elif choice == '5':
+                 from util.program.latest import latest
+                 await latest()
                  input(f'\n{utils.blue}press enter to exit')
                  
             else:
