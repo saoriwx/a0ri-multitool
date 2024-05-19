@@ -42,6 +42,21 @@ while True:
                  input(f'\n{utils.blue}press enter to exit')
                 
             elif choice == '5':
+                 from util.program.osint import osint
+                 await osint()
+                 input(f'\n{utils.blue}press enter to exit')
+
+            elif choice == '6':
+                 from util.program.domainlookup import domainlookup
+                 await domainlookup()
+                 input(f'\n{utils.blue}press enter to exit')
+
+            elif choice == '7':
+                 from util.program.hypesquadchanger import hypesquadchanger
+                 await hypesquadchanger()
+                 input(f'\n{utils.blue}press enter to exit')
+
+            elif choice == '0':
                  from util.program.latest import latest
                  await latest()
                  input(f'\n{utils.blue}press enter to exit')
