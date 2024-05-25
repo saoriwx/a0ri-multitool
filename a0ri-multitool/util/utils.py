@@ -1,18 +1,17 @@
-import whois
-import whois.time_zones
+
 import colorama
 from colorama import *
 import os
 import subprocess
 import socket
 import time
-import instagram_explore as ie
 import requests
 import time
 from datetime import datetime
 import util
 from util import utils
 from util.program import *
+import random
 
 
 red = Fore.RED
@@ -22,6 +21,8 @@ green = Fore.GREEN
 blue = Fore.CYAN
 cyan = Fore.BLUE
 
+rdm = ['Call 911 please', "911 what's your emergency", 'FINISH HIM', "1337 H4X0R", "saori solo", "FICTION", "MINDSET"]
+rrr = random.choice(rdm)
 
 author = "saori.wx"
 github = "https://github.com/saoriwx"
@@ -30,8 +31,9 @@ repo_name = 'a0ri-multitool'
 latest_release = f'{github}/{repo_name}/releases/latest'
 
 
-
 hostname = socket.gethostname()
+
+
 
 
 banner = f"""
@@ -50,16 +52,19 @@ banner = f"""
  __________________________________________________________________________________________
 /_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/
   
-{red}[1] IPLOOKUP{reset}      {red}[4] PHONE LOOKUP{reset}      {red}[7] HYPESQUAD CHANGER
+{red}[1] IPLOOKUP{reset}      {red}[4] PHONE LOOKUP{reset}      {red}[7] HYPESQUAD CHANGER{reset}  {red}[10] SERVER NUKER{reset}
 
-{red}[2] STEALER{reset}       {red}[5] OSINT TOOL{reset}
+{red}[2] STEALER{reset}       {red}[5] OSINT TOOL{reset}        {red}[8] DOX TOOL{reset}
 
-{red}[3] SEARCHER{reset}      {red}[6] DOMAIN LOOKUP{reset}     {red}[0] LATEST RELEASE{reset}
+{red}[3] SEARCHER{reset}      {red}[6] DOMAIN LOOKUP{reset}     {red}[9] TOKEN RAIDER{reset}       {red}{rrr}
 
 {red} __________________________________________________________________________________________
 /_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/
 
 """
+
+
+
 
 
 iplookup_banner = f"""
@@ -166,4 +171,49 @@ hschanger_banner = r"""
                     ░                                                             
 
                     
+"""
+
+dox_banner = r"""
+
+     ______   _______  __   __    _______  _______  _______  ___     
+    |      | |       ||  |_|  |  |       ||       ||       ||   |    
+    |  _    ||   _   ||       |  |_     _||   _   ||   _   ||   |    
+    | | |   ||  | |  ||       |    |   |  |  | |  ||  | |  ||   |    
+    | |_|   ||  |_|  | |     |     |   |  |  |_|  ||  |_|  ||   |___ 
+    |       ||       ||   _   |    |   |  |       ||       ||       |
+    |______| |_______||__| |__|    |___|  |_______||_______||_______| ༒
+
+"""
+
+
+w_banner = r"""
+
+ _______    ______   ______  _______   ________  _______  
+|       \  /      \ |      \|       \ |        \|       \ 
+| $$$$$$$\|  $$$$$$\ \$$$$$$| $$$$$$$\| $$$$$$$$| $$$$$$$\
+| $$__| $$| $$__| $$  | $$  | $$  | $$| $$__    | $$__| $$
+| $$    $$| $$    $$  | $$  | $$  | $$| $$  \   | $$    $$
+| $$$$$$$\| $$$$$$$$  | $$  | $$  | $$| $$$$$   | $$$$$$$\
+| $$  | $$| $$  | $$ _| $$_ | $$__/ $$| $$_____ | $$  | $$
+| $$  | $$| $$  | $$|   $$ \| $$    $$| $$     \| $$  | $$
+ \$$   \$$ \$$   \$$ \$$$$$$ \$$$$$$$  \$$$$$$$$ \$$   \$$
+                                                          
+                                                          
+                                                        
+ 
+"""
+
+
+nuker_banner = r"""
+
+
+███╗   ██╗██╗   ██╗██╗  ██╗███████╗██████╗ 
+████╗  ██║██║   ██║██║ ██╔╝██╔════╝██╔══██╗
+██╔██╗ ██║██║   ██║█████╔╝ █████╗  ██████╔╝
+██║╚██╗██║██║   ██║██╔═██╗ ██╔══╝  ██╔══██╗
+██║ ╚████║╚██████╔╝██║  ██╗███████╗██║  ██║
+╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+                                           
+
+
 """

@@ -7,7 +7,7 @@ from util.program import *
 async def iplookup():
     print(utils.iplookup_banner)
     ip = input (f'{utils.red}[+] ENTER IP : ')
-    api_key = 'c59217a31a2c34' # MERCI DE NE PAS UTILISER MA CLÉ D'API CRÉE VOUS UN COMPTE SUR LE SITE C'EST GRATUIT https://ipinfo.io
+    api_key = 'c59217a31a2c34' # MERCI DE NE PAS UTILISER MA CLÉ D'API POUR VOS PROJET CRÉE VOUS UN COMPTE SUR LE SITE C'EST GRATUIT https://ipinfo.io
     url = f'https://ipinfo.io/{ip}/json?token={api_key}'
   
     try:

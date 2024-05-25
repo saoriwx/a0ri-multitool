@@ -56,6 +56,23 @@ while True:
                  await hypesquadchanger()
                  input(f'\n{utils.blue}press enter to exit')
 
+            elif choice == '8':
+                 from util.program.dox import dox
+                 await dox()
+                 input(f'\n{utils.blue}press enter to exit')
+               
+            elif choice == '9':
+                 from util.program.raid import token_raid
+                 await token_raid().raider()
+                 input(f'\n{utils.blue}press enter to exit')
+               
+            elif choice == '10':
+                 utils.os.system('cls')
+                 from util.program.nuker import nuke
+                 await nuke()
+                 input(f'\n{utils.blue}press enter to exit')
+
+
             elif choice == '0':
                  from util.program.latest import latest
                  await latest()

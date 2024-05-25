@@ -1,5 +1,4 @@
 import whois
-import whois.time_zones
 import subprocess
 from util import utils
 from util.program import *
