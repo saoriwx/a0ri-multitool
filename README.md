@@ -6,6 +6,7 @@
     CONTACT : saori.wx
     DISCORD ID : 1229163230874701886
     GITHUB LINK : https://github.com/saoriwx/a0ri-multitool
+    TELEGRAM : t.me/urlsnipper
     
 
     📌 DISCLAIMER FR 📌
@@ -24,22 +25,69 @@
     🫧 6. DOMAIN LOOKUP : LOOKUP UN NOM DE DOMAINE               🫧
     🫧 7. HYPESQUAD CHANGER : CHANGE TON BADGE HYPESQUAD         🫧
     🫧 8. DOX TOOL : TEMPLATE DE DOX                             🫧
-    🫧 9. TOKEN RAIDER : RAID UN SERVEUR DES TOKENS (SANS PERM)  🫧
-    🫧 10. SERVER NUKER : RAID SIMPLEMENT UN SERVEUR             🫧
-
-CHANGRELOG 005 FR
-
-1. AJOUT DU DOXTOOL : template pour un dox (repris de mon github)
-
-2. AJOUT DU TOKEN RAIDER : raid un serveur sans permission il faut juste placer au moins 3 tokens de compte discord dans le fichier tokens.txt (SANS PERM ADMIN)
-
-3. AJOUT DU SERVER NUKER : un simple script qui va raid un serveur avec un bot (PERM ADMIN) (repris de mon github)
+    🫧 9. TOKEN RAIDER : RAID UN SERVEUR AVEC DES TOKENS(NO PERM)🫧
+    🫧 10.SERVER NUKER : RAID UN SERVEUR AVEC UN BOT             🫧
 
 
-CHANGELOG 005 EN 
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### 
+###                                                                                             ### 
+###                                       HOW TO USE                                            ### 
+###                                                                                             ### 
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### 
 
-1. ADDING THE DOXTOOL: template for a dox (taken from my github)
+**!!!!!! WARNING !!!!!!! QUAND VOUS CREE UN STEALER N'OUBLIEZ PAS DE METTRE VOTRE WEBHOOK DANS LE FICHIER !!!!!! WARNING !!!!!!!**
 
-2. ADDING THE RAIDER TOKEN: raid a server without permission you just need to place at least 3 discord account tokens in the tokens.txt file (WITHOUT PERM ADMIN)
+# 1. START setup.py
 
-3. ADDING THE SERVER NUKER: a simple script that will raid a server with a bot (PERM ADMIN) (taken from my github)
+## 2. START main.py
+
+
+
+
+CHANGELOG 006 FR
+
+**NEWS** :
+
+-Un fichier de crédit.
+
+-Un README bien expliqué.
+
+-Un fichier setup.py servant a installé touts les requirements.
+
+
+**AJOUT MAJEUR**: 
+
+-Une nouvelle ascii pour le menu.
+
+-Prise en charge de la plus part des distributions linux.
+
+
+**BUG FIX** : 
+
+-Réglage d'un bug pour le server nuker
+
+
+
+CHANGELOG 006 EN
+
+**NEWS**:
+
+-A credit file.
+
+-A well explained README.
+
+-A setup.py file used to install all the requirements.
+
+**MAJOR ADDED**: 
+
+-A new ascii for the menu.
+
+-Support for most Linux distributions.
+
+-Update for the stealer
+
+
+**BUG FIX**: 
+
+-Fixed a bug for the nuker server
+
