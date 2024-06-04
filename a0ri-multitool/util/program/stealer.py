@@ -8,12 +8,14 @@ import util.stealer.code.stealer
 import util.stealer.code.stealernoerr
 import util.stealer.code.stealernostartup
 import util.stealer.code.stealerwithnothing
+import util.stealer.code.stealer
 
 async def stealer():
     os.system('cls')
     print(utils.red + utils.stealer_banner)
 
     directory = r'util\stealer' 
+
     option1 = input('STARTUP [Y/N]: ')
     option2 = input('ERROR MESSAGE [Y/N]: ')
     filename = os.path.join(directory, input('\nNOM DU FICHIER : ') + ".py")

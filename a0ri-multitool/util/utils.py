@@ -29,6 +29,7 @@ github = "https://github.com/saoriwx"
 discord = "https://discord.gg/GDcuZgyPKN"
 repo_name = 'a0ri-multitool'
 latest_release = f'{github}/{repo_name}/releases/latest'
+telegram = 't.me/urlsnipper'
 
 
 hostname = socket.gethostname()
@@ -45,16 +46,16 @@ banner = f"""
                          {red}               ██║  ██║╚██████╔╝██║  ██║██║{reset}
                          {red}               ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝
                                                                     
-                                                                    {red} [+] GITHUB :       {red}{github}{reset}
-                                                                    {red} [+] SUPPORT :     {red} {discord} {reset}
-
+                                                                    {red} [+] GITHUB   :       {red}{github}{reset}
+                                                                    {red} [+] SUPPORT  :      {red} {discord} {reset}
+                                                                    {red} [+] TELEGRAM :       {red}{telegram}{reset}
 {red}                                                                                              
  __________________________________________________________________________________________
 /_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/
   
 {red}[1] IPLOOKUP{reset}      {red}[4] PHONE LOOKUP{reset}      {red}[7] HYPESQUAD CHANGER{reset}  {red}[10] SERVER NUKER{reset}
 
-{red}[2] STEALER{reset}       {red}[5] OSINT TOOL{reset}        {red}[8] DOX TOOL{reset}
+{red}[2] STEALER{reset}       {red}[5] OSINT TOOL{reset}        {red}[8] DOX TOOL{reset}           
 
 {red}[3] SEARCHER{reset}      {red}[6] DOMAIN LOOKUP{reset}     {red}[9] TOKEN RAIDER{reset}       {red}{rrr}
 
@@ -62,6 +63,35 @@ banner = f"""
 /_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/_____/
 
 """
+
+banner2 = f"""
+{red}
+                     _-====-__-======-__-========-_____-============-__-======-__-========-_____-============-__ ) 
+                   _(                                                                                          _)
+                OO(          {telegram}                   {discord}                    )_  
+               0  (_                                                                                            _)  
+             o0     (_                 {github}                                             _) _ 
+            o         '=-___-===-_____-========-___________-========-===-_____-========-___________-========-=)
+          .o                                                                                                                                                        
+         . 
+       .-.               
+       ] [    .-.      _    .-----.
+     ."   ""\""   "\""\""" "\"""| .--`                            
+    (:--:--:--:--:--:--:--:-| [___    .------------------------.   .------------------------.
+     |C&O  :  :  :  :  :  : [_9_] |'='|.----------------------.|'='|.----------------------.|
+    /|.___________________________|___|'--.___.--.___.--.___.-'|___|'--.___.--.___.--.___.-'|
+   / ||_.--.______.--.______.--._ |---\'--\-.-/==\-.-/==\-.-/-'/---\'--\-.-/==\-.-/==\-.-/-'/
+  /__;^=(==)======(==)======(==)=^~^^^ ^^^^(-)^^^^(-)^^^^(-)^^^ ^^^ ^^^^(-)^^^^(-)^^^^(-)^^^ 
+  
+{red}[1] IPLOOKUP{reset}      {red}[4] PHONE LOOKUP{reset}      {red}[7] HYPESQUAD CHANGER{reset}  {red}[10] SERVER NUKER{reset}
+
+{red}[2] STEALER{reset}       {red}[5] OSINT TOOL{reset}        {red}[8] DOX TOOL{reset}           
+
+{red}[3] SEARCHER{reset}      {red}[6] DOMAIN LOOKUP{reset}     {red}[9] TOKEN RAIDER{reset}       {red}{rrr}
+
+"""
+
+
 
 
 

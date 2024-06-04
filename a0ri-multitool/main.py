@@ -1,20 +1,29 @@
+
 import util
 from util import utils
 from util.program import *
+
 import asyncio
 import util.program
 import util.program.stealer
-import os
+import random
+
 utils.os.system('cls')
+
+
+bannerwx = [utils.banner, utils.banner2]
+bannerrr = random.choice(bannerwx)
+
+
 
 while True:
 
     async def menu():
             utils.os.system('cls')
-            print(utils.banner)
+            print(bannerrr)
         
 
-            choice = input(f"""{utils.red}┌───({utils.reset}{utils.hostname}@a0ri{utils.red})─[{utils.reset}~{utils.red}]
+            choice = input(f"""{utils.red}┌───({utils.reset}{utils.hostname}@a0ri{utils.red})─[{utils.reset}${utils.red}]
 └──{utils.reset}$ {utils.reset}""")
             
 
@@ -71,6 +80,7 @@ while True:
                  from util.program.nuker import nuke
                  await nuke()
                  input(f'\n{utils.blue}press enter to exit')
+
 
 
             elif choice == '0':

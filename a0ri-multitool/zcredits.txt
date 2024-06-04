@@ -1,0 +1,39 @@
+CREATOR OF THE MULTITOOL : saori.wx
+
+DEV : saori.wx
+
+FONCTION :
+
+	
+	DOMAINLOOKUP : saori.wx
+	DOX TOOL : saori.wx
+	HS CHANGER : saori.wx
+	IPLOOKUP : saori.wx
+	NUKER : saori.wx
+	OSINT TOOL : saorix.wx
+	PHONELOOKUP : saorix.wx
+	TOKEN RAIDER : saori.wx
+	SEARCHER : saori.wx
+	STEALER : saori.wx
+
+
+
+used langage : python 3+
+
+suported os : Windows, Linux 
+
+supported linux distribution : Arch linux, Kali linux, Xubuntu AND MORE
+
+
+CONTACT ME : 
+discord : saori.wx
+
+telegram : @ririmiaou1337
+
+SOCIAL : 
+support : https://discord.gg/SE9b2bAbYc
+github : https://github.com/saoriwx
+
+SHOP : https://discord.gg/3J8j3D4WsZ
+
+TELEGRAM CANAL : https://t.me/urlsnipper
